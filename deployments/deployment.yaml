@@ -1,0 +1,13 @@
+apiVersion: serving.knative.dev/v1
+kind: Configuration
+metadata:
+  name: blue-green-demo
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+        - image: 540714612399.dkr.ecr.eu-west-1.amazonaws.com/knativedemo:latest
+          env:
+            - name: T_VERSION
+              value: "blue"
