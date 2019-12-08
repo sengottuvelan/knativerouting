@@ -1,0 +1,12 @@
+# mac shit
+.DS_Store
+
+# Dep
+vendor
+
+# all logs
+.log
+
+# bin
+bin/
+knative-route-demo
