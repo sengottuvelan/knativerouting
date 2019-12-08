@@ -11,5 +11,3 @@ spec:
           env:
             - name: T_VERSION
               value: "blue"
-      imagePullSecrets:
-        - name: ecr-registry
